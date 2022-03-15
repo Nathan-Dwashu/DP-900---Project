@@ -1,0 +1,1 @@
+SELECT Departments.Department_Name, Locations.Location_ID, Employees.Last_Name, Employees.Annual_Salary FROM Employees, Departments, Locations WHERE (Departments.Department_No = Employees.Department_No AND Departments.Location_ID = Locations.Location_ID) AND (Locations.Location_ID = 1700) ORDER BY Departments.Department_Name ASC

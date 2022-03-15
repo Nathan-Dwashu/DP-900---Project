@@ -1,0 +1,1 @@
+SELECT Departments.Department_No, Departments.Department_Name FROM Departments, Jobs, Employees WHERE (Departments.Department_No = Employees.Department_No AND Jobs.Job_ID = Employees.Job_ID) AND NOT Jobs.Job_ID LIKE 'SA_%' GROUP BY Departments.Department_No, Departments.Department_Name

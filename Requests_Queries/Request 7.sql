@@ -1,0 +1,1 @@
+SELECT ROUND(AVG(Annual_Salary),2) AS Average_Salary FROM Employees

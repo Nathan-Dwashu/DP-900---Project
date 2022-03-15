@@ -1,0 +1,1 @@
+SELECT TOP 1 Departments.Department_No, Department_Name, COUNT(*) AS NumberOfEmployees FROM Departments, Employees WHERE Departments.Department_No = Employees.Department_No GROUP BY Department_Name, Departments.Department_No ORDER BY NumberOfEmployees ASC

@@ -1,0 +1,1 @@
+SELECT ROUND(SUM(Annual_Salary),0) AS Total_Monthly_Salaries FROM Employees WHERE Department_No = 80 OR Department_No = 60

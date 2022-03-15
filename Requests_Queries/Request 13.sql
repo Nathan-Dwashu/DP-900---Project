@@ -1,0 +1,1 @@
+UPDATE Jobs SET Min_Salary = Min_Salary+500

@@ -1,0 +1,1 @@
+INSERT INTO Jobs (Job_ID,Job_Title,Min_Salary,Max_Salary) VALUES ('IT_ASST','IT Assistant',5000,8000)

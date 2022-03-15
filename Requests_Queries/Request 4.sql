@@ -1,0 +1,1 @@
+SELECT Jobs.Job_Title, Departments.Department_Name FROM Employees, Departments, Jobs WHERE Employees.Department_No = Departments.Department_No AND Employees.Job_ID = Jobs.Job_ID AND (Departments.Department_Name = 'Marketing' OR Departments.Department_Name = 'Accounting')
